@@ -1,0 +1,55 @@
+
+
+
+
+
+body{
+
+
+    background-color: rgb(230, 234, 238);
+}
+
+.darkmode{
+
+    margin: auto;
+    text-align: right;
+    font-size: 1.5em;
+    }
+
+.darkmode-button {
+
+
+    
+}
+
+.title{
+
+    color: rgb(0, 0, 0);
+    font-size: 4em;
+    border: black solid 4px;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+.container-1 {
+
+margin: auto;
+border: black solid 1px;
+margin-top: 10px;
+font-size: 1.5em;
+}
+
+.date {
+position:absolute;
+padding-left: 500px;
+margin: auto;
+
+}
+
+.time {
+
+
+    
+}
