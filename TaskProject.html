@@ -16,7 +16,7 @@
     
 
 
-<div class = "darkmode">Dark mode
+<div id = "darkmode">Dark mode
 
 
 <button id = "darkmode-button" onclick = "dark()">OFF
@@ -27,28 +27,31 @@
 
 
 
-<p class = "title">My Daily Task's</p>
+<p id = "title">My Daily Task's</p>
 
-<div class = "container-1">
+<div id = "container-1">
 
-<div class = "date">Will display Todays date </div>
+    <div id = "date">Will display Todays date </div>
 
-<div class = "time" > Display time EST Changed</div>
 
 </div>
 
-<div class = "js-todo-list">text</div>
-
-
-<input placeholder = "Add Text here" class = userinput>
-
-
-<button class = "button-add"
-onclick = "add();"
->+
 
 
 
+
+
+<div id = "list">Things I need to do!</div>
+
+<p id="output"></p>
+
+
+<label for="textInput1"> </label>
+    <input type="text" id="textInput1" placeholder="Enter Task Here"/>
+
+    <button type="button" onclick="getInputValue()">
+        Add
+        </button>
 
 </body>
 </html>

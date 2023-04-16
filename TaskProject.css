@@ -6,27 +6,27 @@
 body{
 
 
-    background-color: rgb(230, 234, 238);
+    background-color: #e6eaee;
 }
 
-.darkmode{
+#darkmode{
 
     margin: auto;
     text-align: right;
     font-size: 1.5em;
+    
     }
 
 .darkmode-button {
 
-
+    
     
 }
 
-.title{
+#title{
 
     color: rgb(0, 0, 0);
     font-size: 4em;
-    border: black solid 4px;
     margin: auto;
     text-align: center;
 
@@ -36,20 +36,45 @@ body{
 .container-1 {
 
 margin: auto;
-border: black solid 1px;
 margin-top: 10px;
 font-size: 1.5em;
 }
 
-.date {
-position:absolute;
-padding-left: 500px;
+#date {
+
+font-size: 1.5em;
 margin: auto;
+text-align: center;
+padding: 10px;
+font-weight: bold;
+
 
 }
 
-.time {
+
+#userinput {
+
+margin-left: 500px;
+
+}
 
 
-    
+
+#output {
+
+
+    text-align: center;
+}
+
+
+
+#list{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+#para{
+
+    padding: 5px;
 }
