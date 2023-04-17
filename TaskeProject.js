@@ -1,6 +1,5 @@
 
 
-
 function dark(){
 
 
@@ -9,6 +8,7 @@ function dark(){
     let dateColor = document.getElementById("date");
     let button = document.getElementById("darkmode-button");
 
+    
   
     if (button.innerHTML === 'ON'){
        
@@ -22,7 +22,7 @@ function dark(){
         title.style["background-color"] = "#e6eaee";
         darkColor.style ["background-color"] = "#e6eaee";
         dateColor.style ["background-color"] = "#e6eaee";
-
+      
 
     } else {button.innerHTML = "ON"
 
@@ -35,20 +35,10 @@ function dark(){
         dateColor.style ["background-color"] = "#404040";
 };
 
-
 };
 
 
-function add(){
 
-    
-    let x = document.createElement("DIV");
-    x.setAttribute("type", "text");
-    
-    document.body.appendChild(x);
-    
-   
-}
 
 //displays the date month / day / year
 
@@ -63,25 +53,46 @@ document.getElementById("date").innerHTML = current_date;
 ////////////////////////
 
 
-
-
-
 function getInputValue() {
+
+
+   
+
 
 
     let inputValue = document.getElementById("textInput1").value;
     document.getElementById("output").innerHTML = inputValue;
 
+    let inputValue2 = document.getElementById("textInput2").value;
+    document.getElementById("output2").innerHTML = inputValue2;
+
+    let inputValue3 = document.getElementById("textInput3").value;
+    document.getElementById("output3").innerHTML = inputValue3;
+
+    let inputValue4 = document.getElementById("textInput4").value;
+    document.getElementById("output4").innerHTML = inputValue4;
 
 
 
-    var button = document.createElement("button");
-    button.innerHTML = "-";
-
-    var body = document.getElementsByTagName("body")[0];
-    body.appendChild(button);
+};
 
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
 

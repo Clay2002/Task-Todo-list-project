@@ -8,12 +8,9 @@
 </head>
 
 
-
-
 <link href="TaskProject.css" rel ="stylesheet" type = "text/css">
  
 <body>
-    
 
 
 <div id = "darkmode">Dark mode
@@ -24,9 +21,6 @@
 
 </div>
 
-
-
-
 <p id = "title">My Daily Task's</p>
 
 <div id = "container-1">
@@ -36,25 +30,66 @@
 
 </div>
 
-
-
-
-
-
 <div id = "list">Things I need to do!</div>
 
-<p id="output"></p>
+
+<div id = "container-2">
+
+    <p id="output"></p>
+    <p id="output2"></p>
+    <p id="output3"></p>
+    <p id="output4"></p>
+    <p id="output5"></p>
+
+</div>
+
+<div id= "container-3">
 
 
-<label for="textInput1"> </label>
+    <label for="textInput1"> </label>
     <input type="text" id="textInput1" placeholder="Enter Task Here"/>
 
-    <button type="button" onclick="getInputValue()">
+    <button type="button" id="addButton1"onclick="getInputValue()">
         Add
         </button>
 
+
+        <label for="textInput2"> </label>
+        
+    <input type="text" id="textInput2" placeholder="Enter Task #2 Here"/>
+
+    <button type="button" id="addButton2" onclick="getInputValue()">
+        Add
+        </button>
+
+
+        <label for="textInput3"> </label>
+        
+    <input type="text" id="textInput3" placeholder="Enter Task #3 Here"/>
+
+    <button type="button" id="addButton3" onclick="getInputValue()">
+        Add
+        </button>
+
+        <label for="textInput4"> </label>
+        
+    <input type="text" id="textInput4" placeholder="Enter Task #4 Here"/>
+
+    <button type="button" id="addButton4" onclick="getInputValue()">
+        Add
+        </button>
+
+
+        </div>
+</div>
+</div>
+
+
+
 </body>
 </html>
+
+
 
 
 <script src = "TaskeProject.js"></script>

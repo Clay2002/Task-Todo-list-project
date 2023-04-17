@@ -1,8 +1,4 @@
 
-
-
-
-
 body{
 
 
@@ -48,9 +44,7 @@ text-align: center;
 padding: 10px;
 font-weight: bold;
 
-
 }
-
 
 #userinput {
 
@@ -60,12 +54,6 @@ margin-left: 500px;
 
 
 
-#output {
-
-
-    text-align: center;
-}
-
 
 
 #list{
@@ -74,7 +62,39 @@ margin-left: 500px;
     font-size: 2em;
 }
 
-#para{
+#d-btn{
 
-    padding: 5px;
+    margin: auto;
+    display: flex;
+    
+
 }
+
+#container-2{
+
+    border:black solid 2px;
+    text-align: center;
+   
+    
+}
+
+#container-3{
+
+    border: black solid 3px;
+   
+    
+}
+#textInput1,#textInput2,#textInput3,#textInput4{
+
+
+    border: black solid 2px;
+    
+}
+
+
+
+
+
+
+
+
