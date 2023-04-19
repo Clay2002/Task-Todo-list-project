@@ -16,7 +16,6 @@ body{
 .darkmode-button {
 
     
-    
 }
 
 #title{
@@ -27,7 +26,6 @@ body{
     text-align: center;
 
 }
-
 
 .container-1 {
 
@@ -52,13 +50,9 @@ margin-left: 500px;
 
 }
 
-
-
-
-
 #list{
     text-align: center;
-    text-decoration: underline;
+   
     font-size: 2em;
 }
 
@@ -67,34 +61,135 @@ margin-left: 500px;
     margin: auto;
     display: flex;
     
-
 }
 
 #container-2{
 
-    border:black solid 2px;
     text-align: center;
+
    
-    
 }
 
 #container-3{
 
-    border: black solid 3px;
-   
+
+    display: grid;
+    grid-auto-rows: auto;
+    margin: auto;
+    position:absolute;
     
 }
 #textInput1,#textInput2,#textInput3,#textInput4{
 
+    margin-top: 10px;
 
-    border: black solid 2px;
-    
+}
+
+#mainButton{
+
+    margin: auto;
+    margin-left: 155px;
+    margin-top: 31px;
+    position: absolute;
+
+}
+
+#mainButton2 {
+
+    margin: auto;
+    margin-left: 155px;
+    margin-top: 85px;
+    position: fixed;
+
+
 }
 
 
+#mainButton3 {
 
 
+    margin: auto;
+    margin-left: 155px;
+    margin-top: 138px;
+    position: fixed;
+
+}
+
+#mainButton4 {
+
+    margin: auto;
+    margin-left: 155px;
+    margin-top: 191px;
+    position: fixed;
+
+}
 
 
+#container-4{
+
+margin: auto;
+margin-top: 300px;
+position:absolute;
+border: solid black 2px;
+
+}
 
 
+#title-2{
+font-size:1.5em;
+font-weight: bold;
+
+}
+
+#notes-input{
+
+    text-align: left;
+    width: 400px;
+    height: 50px;
+   
+}
+
+/*
+hover effects on all buttons + styles
+*/
+
+#addButton1, #addButton2, #addButton3, #addButton4{
+
+color: black;
+background-color: rgb(232, 228, 228);
+border-radius: 10px;
+border-color: rgb(62, 60, 60);
+}
+
+#addButton1:hover,#addButton2:hover,#addButton3:hover,#addButton4:hover{
+
+    background-color: rgb(179, 176, 176);
+
+}
+
+#mainButton,#mainButton2,#mainButton3,#mainButton4{
+
+
+    background-color: rgb(255, 0, 0);
+    padding: 2px;
+    border-radius: 5px;
+    border-color: rgb(62, 60, 60);
+
+}
+
+#mainButton:hover,#mainButton2:hover,#mainButton3:hover,#mainButton4:hover{
+
+    color: white;
+
+}
+
+#container-5{
+
+
+    top: 85%;
+    left: 78%;
+    display: block;
+    position: absolute;
+    font-size: 25px;
+   
+}
