@@ -88,34 +88,34 @@
 <div id = "container-4">
 
 <div id ="title-2">Notes:</div>
-<input placeholder = "Type notes here!"  id ="notes-input">
+<input type = 'text' placeholder = "Type notes here!" name = "server" id ="saveServer">
 
+
+<button onclick="save_data()" type="button">Save Notes</button>
 
 </div>
 
 
     <div id = "container-5">
 
-        <div >Workout
+        <div id ="checklist-1">Workout
 
-
-            <input type ="checkbox">
+            <input onclick = "checkbox();" id ="checkbox1"type ="checkbox">
 
         </div>
 
-        <div>Drink 1 gallon of water
+        <div id ="checklist-2">Drink 1 gallon of water
 
-
-<input type ="checkbox">
+<input onclick = "checkbox2();" id ="checkbox2"type ="checkbox">
         </div>
 
-        <div>Run
+        <div id ="checklist-3">Run
             
-<input type ="checkbox"></div>
+<input onclick = "checkbox3();" id ="checkbox3"type ="checkbox"></div>
 
-        <div>Study
+        <div id ="checklist-4">Study
 
-            <input type ="checkbox">
+            <input onclick = "checkbox4();"id ="checkbox4"type ="checkbox">
         </div>
 
     </div>

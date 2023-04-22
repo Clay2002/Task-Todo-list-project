@@ -216,8 +216,65 @@ function del4(){
 };
 
 
-    
+function checkbox(){
 
+
+
+
+
+
+const checklist1 = document.getElementById("checklist-1")
+const checkbox1 = document.getElementById("checkbox1")
+
+checklist1.style.textDecoration = "line-through";
+
+
+
+};
+
+function checkbox2(){
+const checklist2 = document.getElementById("checklist-2")
+const checkbox2 = document.getElementById("checkbox2")
+
+checklist2.style.textDecoration = "line-through";
+
+
+};
+
+
+function checkbox3(){
+    const checklist3 = document.getElementById("checklist-3")
+    const checkbox3 = document.getElementById("checkbox3")
+    
+    checklist3.style.textDecoration = "line-through";
+    
+    
+    };
+   
+    function checkbox4(){
+
+
+     
+        const checklist4 = document.getElementById("checklist-4");
+        const checkbox4 = document.getElementById("checkbox4");
+        
+
+        checklist4.style.textDecoration = "line-through";
+
+  
+    
+    };
+
+
+
+
+
+
+
+
+
+   
+//local storage
 
 
 
